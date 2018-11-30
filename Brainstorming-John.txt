@@ -21,14 +21,60 @@ Each playthrough builds on the last
 	 a breakdown when he sees you again, etc.)
 
 Everything grows
+	-Puzzle/platformer where both the player and all the platforms can grow in size when clicked, but they can't
+	 shrink back down
+	-A game that you kinda just walk through where each new screen is just the previous screen, but with time
+	 passed. So like in first screen there's like a tree sapling and some guy, then there's a small tree and
+	 a tent, then there's a normal tree and a house, etc.
+
 It only changes when you aren't looking
+	-I have no idea
+
 Sacrifices must be made
+	-That one game where your corpses help you platform
+	-An RPG where you start out with like 100 party members or something and they act as your HP, but they
+	 can't be replaced and when you run out, you die
+
 Absorb your enemies
+	-Kirby
+	-A stealth-like game where you want to avoid enemies because when you touch them, they get absorbed into
+	 you and you become more evil or something
+
 Darkness is your friend
+	-A literal take on it: you're a boy asleep in bed but you wake up and befriend what appears to be like a
+	 shadow or something. You go about the house having fun with your new friend until the sun comes up and
+	 he disappears
+	-Platforms only exist when it's dark, but you can only see them when it's light (overdone, I know)
+	-Platforms are white, background is dark, when white lights shine on platforms, they stop existing
+
 Don't trust the game
+	-Text-based adventure where you're literally talking to the game (some visuals)
+
 Magic, but at what cost?
+	-A magic meter
+	-Makes the game stupidly easy, but every time you use it one of the main character's friends/family members 
+	 dies. Either that or it makes the character look more and more stupid (clown shoes, bad color palette, etc.)
+
 Making connections
+	-No idea
+
 One item, many uses
+	-Platformer where one button is assigned to the item (let's say "X", also item = magic wand) and you use 
+	 different combinations of the arrow keys to do different things (UP+X - spin it like a propeller and fly
+	 upwards, DOWN+X - use it like a pogo stick and jump far forwards, LEFT+X - throw it behind you like
+	 a boomerang, RIGHT+X - extend it forward, pushing everything in front of you away
+	-A minigame collection all centering around the same item. One minigame could be like an egg race where
+	 the egg is balanced on the item, one could be like a Galaga thing where the item shoots bullets, etc.
+
 Take one, leave one
+	-You have a bunch of different items that can be used in different ways, but you can only carry one at a
+	 time. There's no specific item required for each area, but some items will make certain areas easier
+
 Two connected worlds
+	-Changes you make/enemies you kill in one world affect the other world
+
 Evolve
+	-Spore
+	-Every game like agar.io
+	-A game where Ronald Reagan teaches you about how evolution is a conspiracy made up by the libs
+	-The further you get through the game, the more abilities you get and the more things you can do
