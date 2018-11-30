@@ -1,0 +1,34 @@
+Automation
+	-A puzzle game that's sorta like Factorio, where you have a thing that you're trying to produce with 
+	 a mechanical assembly line, but there are set levels and everything's on one screen
+
+Break the cycle
+	-A puzzle game that's kinda like the opposite of the one above, where there's already some automated cycle
+	 going on and you have to move pieces around in a certain way to make the cycle stop. This one would be
+	 really hard to make because we would have to design it so that the cycle continues in many different
+	 scenarios
+
+Control the environment, not the player
+	-A platformer that works like Super Monkey Ball, but in 2D
+	-A platformer where you control a Rube Goldberg machine and you have to get a ball from start to finish
+	 using the various contraptions. You may also be able to control where gravity is pointed, so the ball
+	 could roll down a horizontal surface if necessary
+
+Each playthrough builds on the last
+	-A 3 to 5 screen game where once you reach the end, you start from the first screen again, but everything
+	 you did the first time affects each screen this time. (ex. The family of an enemy you killed is gathered
+	 for its funeral, some guy who watched you die on one of the screens is talking to a therapist and has
+	 a breakdown when he sees you again, etc.)
+
+Everything grows
+It only changes when you aren't looking
+Sacrifices must be made
+Absorb your enemies
+Darkness is your friend
+Don't trust the game
+Magic, but at what cost?
+Making connections
+One item, many uses
+Take one, leave one
+Two connected worlds
+Evolve
