@@ -25,6 +25,7 @@
       <sprite>sprites\spr_levelselect</sprite>
       <sprite>sprites\spr_leveliconlocked</sprite>
       <sprite>sprites\spr_levelicon</sprite>
+      <sprite>sprites\spr_basicbutton</sprite>
     </sprites>
     <sprites name="Food">
       <sprites name="Whole">
@@ -77,6 +78,7 @@
       <object>objects\btn_cheatsheet</object>
       <object>objects\btn_close</object>
       <object>objects\btn_levelselect</object>
+      <object>objects\btn_basic</object>
     </objects>
     <objects name="Food">
       <objects name="Whole">

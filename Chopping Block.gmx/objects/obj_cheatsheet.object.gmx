@@ -11,29 +11,59 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>201</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>-1</relative>
+        <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>btn_close</object>
+            <kind>1</kind>
+            <string>///Adds close button and makes menu transparent to start with
+c = instance_create(x+40,y-100,btn_close)
+c.depth = -1;
+c.image_alpha = 0;
+image_alpha = 0;
+</string>
           </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
           <argument>
-            <kind>0</kind>
-            <string>50</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>-50</string>
+            <kind>1</kind>
+            <string>///Fades menu in over ten frames
+if (c.image_alpha &lt; 1 &amp;&amp; image_alpha &lt;1)
+{
+    c.image_alpha += .1;
+    image_alpha += .1;
+}
+else 
+{
+    image_alpha = 1;
+    c.image_alpha = 1;
+}
+</string>
           </argument>
         </arguments>
       </action>

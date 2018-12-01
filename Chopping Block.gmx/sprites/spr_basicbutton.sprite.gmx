@@ -20,6 +20,6 @@
   <width>6250</width>
   <height>6250</height>
   <frames>
-    <frame index="0">images\spr_whitebox_0.png</frame>
+    <frame index="0">images\spr_basicbutton_0.png</frame>
   </frames>
 </sprite>

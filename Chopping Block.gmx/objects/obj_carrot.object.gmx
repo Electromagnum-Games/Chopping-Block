@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>&lt;undefined&gt;</maskName>
+  <maskName>spr_basicbutton</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -26,8 +26,64 @@
           <argument>
             <kind>1</kind>
             <string>///Increase veg and carrot count by 1
+b = instance_create(x,y,btn_basic);
+b.depth=1;
+b.image_xscale = b.image_xscale*0.05;
+b.image_yscale *= 0.05;
 global.veg += 1;
 global.carrot += 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="11">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Get rid of white overlay
+instance_destroy(a.id);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="10">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Add a translucent white overlay to emulate a brighter sprite
+a = instance_create(x,y,obj_whitebox);
+a.image_xscale *= 0.05;
+a.image_yscale *= 0.05;
+a.depth=-1
+a.image_alpha=0.3;
 </string>
           </argument>
         </arguments>
@@ -51,6 +107,11 @@ global.carrot += 1;
           <argument>
             <kind>1</kind>
             <string>///Veg and carrot -1, chopped +1
+if (instance_exists(a.id))
+{
+    instance_destroy(a.id);
+}
+instance_destroy(b.id);
 global.veg -= 1;
 global.carrot -= 1;
 global.chopped += 1;
