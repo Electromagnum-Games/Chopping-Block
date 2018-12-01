@@ -12,7 +12,9 @@
       <sprite>sprites\spr_quit</sprite>
       <sprite>sprites\spr_start</sprite>
       <sprite>sprites\spr_ready</sprite>
-      <sprite>sprites\spr_tryagain</sprite>
+      <sprite>sprites\spr_restart</sprite>
+      <sprite>sprites\spr_menu</sprite>
+      <sprite>sprites\spr_nextlevel</sprite>
     </sprites>
     <sprites name="Food">
       <sprite>sprites\spr_beef</sprite>
@@ -29,6 +31,7 @@
     <script>scripts\scr_rules.gml</script>
     <script>scripts\scr_text.gml</script>
     <script>scripts\scr_zero.gml</script>
+    <script>scripts\scr_chopcheck.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_box</font>
@@ -40,7 +43,9 @@
       <object>objects\btn_back</object>
       <object>objects\btn_options</object>
       <object>objects\btn_ready</object>
-      <object>objects\btn_tryagain</object>
+      <object>objects\btn_restart</object>
+      <object>objects\btn_menu</object>
+      <object>objects\btn_nextlevel</object>
     </objects>
     <objects name="Food">
       <object>objects\obj_beef</object>
