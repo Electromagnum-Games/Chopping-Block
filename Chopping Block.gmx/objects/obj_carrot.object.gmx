@@ -28,8 +28,8 @@
             <string>///Increase veg and carrot count by 1 and create the basic box
 b = instance_create(x,y,btn_basic);
 b.depth=1;
-b.image_xscale = b.image_xscale*0.055;
-b.image_yscale *= 0.055;
+b.image_xscale = b.image_xscale*0.0585;
+b.image_yscale *= 0.0585;
 global.veg += 1;
 global.carrot += 1;
 depth=0.9;
@@ -81,8 +81,8 @@ instance_destroy(a.id);
             <kind>1</kind>
             <string>///Add a translucent white overlay to emulate a brighter sprite
 a = instance_create(x,y,obj_whitebox);
-a.image_xscale *= 0.05;
-a.image_yscale *= 0.05;
+a.image_xscale *= 0.0585;
+a.image_yscale *= 0.0585;
 a.depth=-1
 a.image_alpha=0.3;
 </string>
