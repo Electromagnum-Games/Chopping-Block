@@ -61,6 +61,7 @@
     <instance objName="obj_carrot" x="320" y="288" name="inst_BD995FE3" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
     <instance objName="obj_lemon" x="32" y="256" name="inst_C3D43A61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_carrot" x="448" y="448" name="inst_D836445E" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
+    <instance objName="btn_cheatsheet" x="832" y="0" name="inst_F5A14A8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

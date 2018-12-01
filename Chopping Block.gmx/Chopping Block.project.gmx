@@ -6,6 +6,11 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="Level Icons">
+      <sprite>sprites\spr_levelicon1</sprite>
+      <sprite>sprites\spr_levelicon2</sprite>
+      <sprite>sprites\spr_levelicon3</sprite>
+    </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spr_back</sprite>
       <sprite>sprites\spr_options</sprite>
@@ -15,6 +20,11 @@
       <sprite>sprites\spr_restart</sprite>
       <sprite>sprites\spr_menu</sprite>
       <sprite>sprites\spr_nextlevel</sprite>
+      <sprite>sprites\spr_chstbtn</sprite>
+      <sprite>sprites\spr_xbutton</sprite>
+      <sprite>sprites\spr_levelselect</sprite>
+      <sprite>sprites\spr_leveliconlocked</sprite>
+      <sprite>sprites\spr_levelicon</sprite>
     </sprites>
     <sprites name="Food">
       <sprite>sprites\spr_beef</sprite>
@@ -24,6 +34,7 @@
       <sprite>sprites\spr_potato</sprite>
       <sprite>sprites\spr_carrot</sprite>
     </sprites>
+    <sprite>sprites\spr_cheatsheet</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -32,11 +43,18 @@
     <script>scripts\scr_text.gml</script>
     <script>scripts\scr_zero.gml</script>
     <script>scripts\scr_chopcheck.gml</script>
+    <script>scripts\scr_levelselect.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_box</font>
   </fonts>
   <objects name="objects">
+    <objects name="Level Icons">
+      <object>objects\obj_levelicon</object>
+      <object>objects\obj_levelicon1</object>
+      <object>objects\obj_levelicon2</object>
+      <object>objects\obj_levelicon3</object>
+    </objects>
     <objects name="Buttons">
       <object>objects\btn_start</object>
       <object>objects\btn_quit</object>
@@ -46,6 +64,9 @@
       <object>objects\btn_restart</object>
       <object>objects\btn_menu</object>
       <object>objects\btn_nextlevel</object>
+      <object>objects\btn_cheatsheet</object>
+      <object>objects\btn_close</object>
+      <object>objects\btn_levelselect</object>
     </objects>
     <objects name="Food">
       <object>objects\obj_beef</object>
@@ -57,9 +78,12 @@
     </objects>
     <object>objects\obj_text</object>
     <object>objects\obj_zero</object>
+    <object>objects\obj_cheatsheet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_levelselect</room>
+    <room>rooms\rm_options</room>
     <room>rooms\rm_tut1</room>
     <room>rooms\rm_tut2</room>
     <room>rooms\rm_tut3</room>
