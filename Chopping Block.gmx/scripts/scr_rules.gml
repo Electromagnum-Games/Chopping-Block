@@ -60,6 +60,7 @@ else if (global.beef > 0 && global.lemon > 0 && global.tomato > 0)
 
 else 
 {
+    instance_destroy(all);
     scr_text("Congrats!",3,350,300)
     instance_create(250,500,btn_menu);
     instance_create(500,500,btn_nextlevel);

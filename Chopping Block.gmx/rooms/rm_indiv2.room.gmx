@@ -10,7 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>global.to_be_chopped = 2;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -51,7 +51,15 @@
     <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_carrot" x="384" y="320" name="inst_18661098" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
+    <instance objName="obj_zero" x="32" y="32" name="inst_EAECAF57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="btn_cheatsheet" x="832" y="0" name="inst_37BFA959" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_potato" x="64" y="416" name="inst_4C6B4991" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_potato" x="64" y="608" name="inst_3DDE60F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_carrot" x="320" y="416" name="inst_53E216CE" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
+    <instance objName="obj_carrot" x="320" y="640" name="inst_D72D8B56" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lemon" x="480" y="384" name="inst_2D598A1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lemon" x="480" y="608" name="inst_5F728282" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_chicken" x="736" y="480" name="inst_B8D3E901" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
