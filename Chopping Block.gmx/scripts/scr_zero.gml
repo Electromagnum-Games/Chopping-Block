@@ -7,3 +7,4 @@ global.tomato = 0;
 global.lemon = 0;
 global.potato = 0;
 global.carrot = 0;
+global.chopped = 0;

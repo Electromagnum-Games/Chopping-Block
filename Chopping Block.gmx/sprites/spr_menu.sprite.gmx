@@ -20,6 +20,6 @@
   <width>406</width>
   <height>176</height>
   <frames>
-    <frame index="0">images\spr_tryagain_0.png</frame>
+    <frame index="0">images\spr_menu_0.png</frame>
   </frames>
 </sprite>

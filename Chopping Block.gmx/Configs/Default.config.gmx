@@ -359,8 +359,8 @@
     <option_linux_sync>0</option_linux_sync>
     <option_linux_texture_page>2048</option_linux_texture_page>
     <option_linux_version_build>0</option_linux_version_build>
-    <option_linux_version_major>1</option_linux_version_major>
-    <option_linux_version_minor>0</option_linux_version_minor>
+    <option_linux_version_major>0</option_linux_version_major>
+    <option_linux_version_minor>1</option_linux_version_minor>
     <option_loadalpha>255</option_loadalpha>
     <option_loadimage>nil</option_loadimage>
     <option_loadtransparent>false</option_loadtransparent>
@@ -493,8 +493,8 @@
     <option_version_company>Electromagnum Games</option_version_company>
     <option_version_copyright></option_version_copyright>
     <option_version_description></option_version_description>
-    <option_version_major>1</option_version_major>
-    <option_version_minor>0</option_version_minor>
+    <option_version_major>0</option_version_major>
+    <option_version_minor>1</option_version_minor>
     <option_version_product></option_version_product>
     <option_version_release>0</option_version_release>
     <option_win8_advertising_appid></option_win8_advertising_appid>
@@ -577,8 +577,8 @@
     <option_windows_enable_steam>0</option_windows_enable_steam>
     <option_windows_game_icon>Configs\Default\windows\runner_icon.ico</option_windows_game_icon>
     <option_windows_license>Configs\Default\windows\License.txt</option_windows_license>
-    <option_windows_mainor_version>0</option_windows_mainor_version>
-    <option_windows_major_version>1</option_windows_major_version>
+    <option_windows_mainor_version>1</option_windows_mainor_version>
+    <option_windows_major_version>0</option_windows_major_version>
     <option_windows_nsis_file>Configs\Default\windows\RunnerInstaller.nsi</option_windows_nsis_file>
     <option_windows_product_info></option_windows_product_info>
     <option_windows_release_version>0</option_windows_release_version>
