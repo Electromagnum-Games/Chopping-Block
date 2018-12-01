@@ -1,0 +1,9 @@
+global.meat = 0;
+global.veg = 0;
+global.fruit = 0;
+global.beef = 0;
+global.chicken = 0;
+global.tomato = 0;
+global.lemon = 0;
+global.potato = 0;
+global.carrot = 0;

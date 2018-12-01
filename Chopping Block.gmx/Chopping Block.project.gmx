@@ -5,11 +5,59 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="Buttons">
+      <sprite>sprites\spr_back</sprite>
+      <sprite>sprites\spr_options</sprite>
+      <sprite>sprites\spr_quit</sprite>
+      <sprite>sprites\spr_start</sprite>
+      <sprite>sprites\spr_ready</sprite>
+      <sprite>sprites\spr_tryagain</sprite>
+    </sprites>
+    <sprites name="Food">
+      <sprite>sprites\spr_beef</sprite>
+      <sprite>sprites\spr_chicken</sprite>
+      <sprite>sprites\spr_tomato</sprite>
+      <sprite>sprites\spr_lemon</sprite>
+      <sprite>sprites\spr_potato</sprite>
+      <sprite>sprites\spr_carrot</sprite>
+    </sprites>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_rules.gml</script>
+    <script>scripts\scr_text.gml</script>
+    <script>scripts\scr_zero.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_box</font>
+  </fonts>
+  <objects name="objects">
+    <objects name="Buttons">
+      <object>objects\btn_start</object>
+      <object>objects\btn_quit</object>
+      <object>objects\btn_back</object>
+      <object>objects\btn_options</object>
+      <object>objects\btn_ready</object>
+      <object>objects\btn_tryagain</object>
+    </objects>
+    <objects name="Food">
+      <object>objects\obj_beef</object>
+      <object>objects\obj_chicken</object>
+      <object>objects\obj_tomato</object>
+      <object>objects\obj_lemon</object>
+      <object>objects\obj_potato</object>
+      <object>objects\obj_carrot</object>
+    </objects>
+    <object>objects\obj_text</object>
+    <object>objects\obj_zero</object>
+  </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rm_menu</room>
+    <room>rooms\rm_tut1</room>
+    <room>rooms\rm_tut2</room>
+    <room>rooms\rm_tut3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
