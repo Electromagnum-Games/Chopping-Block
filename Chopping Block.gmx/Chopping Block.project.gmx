@@ -27,14 +27,22 @@
       <sprite>sprites\spr_levelicon</sprite>
     </sprites>
     <sprites name="Food">
-      <sprite>sprites\spr_beef</sprite>
-      <sprite>sprites\spr_chicken</sprite>
-      <sprite>sprites\spr_tomato</sprite>
-      <sprite>sprites\spr_lemon</sprite>
-      <sprite>sprites\spr_potato</sprite>
-      <sprite>sprites\spr_carrot</sprite>
+      <sprites name="Whole">
+        <sprite>sprites\spr_beef</sprite>
+        <sprite>sprites\spr_chicken</sprite>
+        <sprite>sprites\spr_tomato</sprite>
+        <sprite>sprites\spr_lemon</sprite>
+        <sprite>sprites\spr_potato</sprite>
+        <sprite>sprites\spr_carrot</sprite>
+      </sprites>
+      <sprites name="Halved">
+        <sprite>sprites\spr_tophalfcarrot</sprite>
+        <sprite>sprites\spr_bottomhalfcarrot</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\spr_cheatsheet</sprite>
+    <sprite>sprites\spr_whitebox</sprite>
+    <sprite>sprites\spr_blackbox</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -44,6 +52,8 @@
     <script>scripts\scr_zero.gml</script>
     <script>scripts\scr_chopcheck.gml</script>
     <script>scripts\scr_levelselect.gml</script>
+    <script>scripts\scr_movehalves.gml</script>
+    <script>scripts\scr_halfanimtime.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_box</font>
@@ -69,16 +79,26 @@
       <object>objects\btn_levelselect</object>
     </objects>
     <objects name="Food">
-      <object>objects\obj_beef</object>
-      <object>objects\obj_chicken</object>
-      <object>objects\obj_tomato</object>
-      <object>objects\obj_lemon</object>
-      <object>objects\obj_potato</object>
-      <object>objects\obj_carrot</object>
+      <objects name="Whole">
+        <object>objects\obj_beef</object>
+        <object>objects\obj_chicken</object>
+        <object>objects\obj_tomato</object>
+        <object>objects\obj_lemon</object>
+        <object>objects\obj_potato</object>
+        <object>objects\obj_carrot</object>
+      </objects>
+      <objects name="Halved">
+        <object>objects\obj_tophalffood</object>
+        <object>objects\obj_bottomhalffood</object>
+        <object>objects\obj_tophalfcarrot</object>
+        <object>objects\obj_bottomhalfcarrot</object>
+      </objects>
     </objects>
     <object>objects\obj_text</object>
     <object>objects\obj_zero</object>
     <object>objects\obj_cheatsheet</object>
+    <object>objects\obj_whitebox</object>
+    <object>objects\obj_blackbox</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
