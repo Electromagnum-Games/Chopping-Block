@@ -16,16 +16,15 @@
       <sprite>sprites\spr_options</sprite>
       <sprite>sprites\spr_quit</sprite>
       <sprite>sprites\spr_start</sprite>
-      <sprite>sprites\spr_ready</sprite>
       <sprite>sprites\spr_restart</sprite>
       <sprite>sprites\spr_menu</sprite>
       <sprite>sprites\spr_nextlevel</sprite>
-      <sprite>sprites\spr_chstbtn</sprite>
+      <sprite>sprites\spr_help</sprite>
       <sprite>sprites\spr_xbutton</sprite>
       <sprite>sprites\spr_levelselect</sprite>
-      <sprite>sprites\spr_leveliconlocked</sprite>
       <sprite>sprites\spr_levelicon</sprite>
       <sprite>sprites\spr_basicbutton</sprite>
+      <sprite>sprites\spr_music</sprite>
     </sprites>
     <sprites name="Food">
       <sprites name="Whole">
@@ -39,11 +38,19 @@
       <sprites name="Halved">
         <sprite>sprites\spr_tophalfcarrot</sprite>
         <sprite>sprites\spr_bottomhalfcarrot</sprite>
+        <sprite>sprites\spr_tophalfpotato</sprite>
+        <sprite>sprites\spr_bottomhalfpotato</sprite>
       </sprites>
     </sprites>
+    <sprites name="Overlays">
+      <sprite>sprites\spr_b_rectang</sprite>
+      <sprite>sprites\spr_w_rectang</sprite>
+      <sprite>sprites\spr_b_square</sprite>
+      <sprite>sprites\spr_w_square</sprite>
+      <sprite>sprites\spr_check</sprite>
+      <sprite>sprites\spr_lock</sprite>
+    </sprites>
     <sprite>sprites\spr_cheatsheet</sprite>
-    <sprite>sprites\spr_whitebox</sprite>
-    <sprite>sprites\spr_blackbox</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -55,6 +62,9 @@
     <script>scripts\scr_levelselect.gml</script>
     <script>scripts\scr_movehalves.gml</script>
     <script>scripts\scr_halfanimtime.gml</script>
+    <script>scripts\scr_overlay_food.gml</script>
+    <script>scripts\scr_overlay_button.gml</script>
+    <script>scripts\scr_remove_overlay.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_box</font>
@@ -67,21 +77,23 @@
       <object>objects\obj_levelicon3</object>
     </objects>
     <objects name="Buttons">
+      <object>objects\btn_par_square</object>
+      <object>objects\btn_par_rect</object>
       <object>objects\btn_start</object>
       <object>objects\btn_quit</object>
       <object>objects\btn_back</object>
       <object>objects\btn_options</object>
-      <object>objects\btn_ready</object>
-      <object>objects\btn_restart</object>
       <object>objects\btn_menu</object>
       <object>objects\btn_nextlevel</object>
-      <object>objects\btn_cheatsheet</object>
-      <object>objects\btn_close</object>
       <object>objects\btn_levelselect</object>
+      <object>objects\btn_restart</object>
+      <object>objects\btn_help</object>
+      <object>objects\btn_close</object>
       <object>objects\btn_basic</object>
     </objects>
     <objects name="Food">
       <objects name="Whole">
+        <object>objects\obj_food</object>
         <object>objects\obj_beef</object>
         <object>objects\obj_chicken</object>
         <object>objects\obj_tomato</object>
@@ -94,13 +106,19 @@
         <object>objects\obj_bottomhalffood</object>
         <object>objects\obj_tophalfcarrot</object>
         <object>objects\obj_bottomhalfcarrot</object>
+        <object>objects\obj_tophalfpotato</object>
+        <object>objects\obj_bottomhalfpotato</object>
       </objects>
+    </objects>
+    <objects name="Overlays">
+      <object>objects\obj_b_rectang</object>
+      <object>objects\obj_w_rectang</object>
+      <object>objects\obj_b_square</object>
+      <object>objects\obj_w_square</object>
     </objects>
     <object>objects\obj_text</object>
     <object>objects\obj_zero</object>
     <object>objects\obj_cheatsheet</object>
-    <object>objects\obj_whitebox</object>
-    <object>objects\obj_blackbox</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

@@ -345,7 +345,7 @@
     <option_linux_display_name>Chopping Block</option_linux_display_name>
     <option_linux_enable_steam>0</option_linux_enable_steam>
     <option_linux_fullscreen>0</option_linux_fullscreen>
-    <option_linux_homepage>http://www.GM_Assets.com</option_linux_homepage>
+    <option_linux_homepage></option_linux_homepage>
     <option_linux_icon>Configs\Default\linux\icon64.png</option_linux_icon>
     <option_linux_interpolate>-1</option_linux_interpolate>
     <option_linux_long_desc>GM Assets</option_linux_long_desc>
