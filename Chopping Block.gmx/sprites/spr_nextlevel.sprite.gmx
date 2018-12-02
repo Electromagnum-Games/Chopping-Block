@@ -21,5 +21,7 @@
   <height>940</height>
   <frames>
     <frame index="0">images\spr_nextlevel_0.png</frame>
+    <frame index="1">images\spr_nextlevel_1.png</frame>
+    <frame index="2">images\spr_nextlevel_2.png</frame>
   </frames>
 </sprite>

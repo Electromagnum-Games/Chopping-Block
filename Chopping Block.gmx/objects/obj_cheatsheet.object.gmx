@@ -25,11 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Adds close button and makes menu transparent to start with
-//c = instance_create(x+40,y-100,btn_close)
-//c.depth = -1;
-//c.image_alpha = 0;
-//image_alpha = 0;
+            <string>///Adds close button
+c = instance_create(x+40,y-100,btn_close)
+c.depth = -1;
 </string>
           </argument>
         </arguments>

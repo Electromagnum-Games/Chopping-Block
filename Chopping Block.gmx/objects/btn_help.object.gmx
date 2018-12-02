@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>btn_par_square</parentName>
+  <parentName>btn_par</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="6" enumb="7">
@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Deletes overlay on release
-instance_destroy(a.id);
+            <string>///Use btn_par's code
+event_inherited();
 </string>
           </argument>
         </arguments>
@@ -51,11 +51,11 @@ instance_destroy(a.id);
           </argument>
           <argument>
             <kind>0</kind>
-            <string>500</string>
+            <string>960</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>400</string>
+            <string>500</string>
           </argument>
         </arguments>
       </action>

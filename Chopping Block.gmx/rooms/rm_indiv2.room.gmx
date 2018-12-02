@@ -53,13 +53,13 @@
   <instances>
     <instance objName="obj_zero" x="1856" y="992" name="inst_EAECAF57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="btn_help" x="1824" y="96" name="inst_37BFA959" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="obj_potato" x="416" y="448" name="inst_4C6B4991" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="obj_potato" x="416" y="736" name="inst_3DDE60F7" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="obj_carrot" x="896" y="448" name="inst_53E216CE" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="obj_carrot" x="896" y="736" name="inst_D72D8B56" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lemon" x="1312" y="384" name="inst_2D598A1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lemon" x="1312" y="640" name="inst_5F728282" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_chicken" x="1696" y="480" name="inst_B8D3E901" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_potato" x="352" y="448" name="inst_4C6B4991" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_potato" x="352" y="736" name="inst_3DDE60F7" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_carrot" x="800" y="448" name="inst_53E216CE" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_carrot" x="800" y="736" name="inst_D72D8B56" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lemon" x="1248" y="448" name="inst_2D598A1D" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lemon" x="1248" y="736" name="inst_5F728282" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_chicken" x="1696" y="576" name="inst_B8D3E901" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="btn_menu" x="256" y="96" name="inst_44D30781" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

@@ -10,6 +10,8 @@
       <sprite>sprites\spr_levelicon1</sprite>
       <sprite>sprites\spr_levelicon2</sprite>
       <sprite>sprites\spr_levelicon3</sprite>
+      <sprite>sprites\spr_levelicon4</sprite>
+      <sprite>sprites\spr_levelicon5</sprite>
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spr_back</sprite>
@@ -62,9 +64,6 @@
     <script>scripts\scr_levelselect.gml</script>
     <script>scripts\scr_movehalves.gml</script>
     <script>scripts\scr_halfanimtime.gml</script>
-    <script>scripts\scr_overlay_food.gml</script>
-    <script>scripts\scr_overlay_button.gml</script>
-    <script>scripts\scr_remove_overlay.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_box</font>
@@ -75,10 +74,10 @@
       <object>objects\obj_levelicon1</object>
       <object>objects\obj_levelicon2</object>
       <object>objects\obj_levelicon3</object>
+      <object>objects\obj_levelicon4</object>
     </objects>
     <objects name="Buttons">
-      <object>objects\btn_par_square</object>
-      <object>objects\btn_par_rect</object>
+      <object>objects\btn_par</object>
       <object>objects\btn_start</object>
       <object>objects\btn_quit</object>
       <object>objects\btn_back</object>
@@ -109,12 +108,6 @@
         <object>objects\obj_tophalfpotato</object>
         <object>objects\obj_bottomhalfpotato</object>
       </objects>
-    </objects>
-    <objects name="Overlays">
-      <object>objects\obj_b_rectang</object>
-      <object>objects\obj_w_rectang</object>
-      <object>objects\obj_b_square</object>
-      <object>objects\obj_w_square</object>
     </objects>
     <object>objects\obj_text</object>
     <object>objects\obj_zero</object>
