@@ -83,10 +83,10 @@ draw_set_alpha(alpha);
 if (alpha &lt; 1) alpha += spd/10; else alpha = 1;
 
 draw_set_font(font);
-draw_set_color(c_gray);
+draw_set_color($8B6100);
 draw_rectangle(x,y,x+boxwidth,y+boxheight,0);
-draw_set_color(c_black);
-draw_rectangle(x,y,x+boxwidth,y+boxheight,1);
+draw_set_color($684900);
+draw_rectangle(x-10,y-10,(x+10)+boxwidth,(y+10)+boxheight,1);
 
 draw_set_color(c_white);
 draw_set_halign(fa_left);
@@ -97,7 +97,7 @@ draw_text_ext
     y + padding,
     print,
     font_size+(font_size/2),
-    maxlength/2
+    maxlength
 );
 
 draw_set_alpha(1);

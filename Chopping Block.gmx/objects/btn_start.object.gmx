@@ -47,7 +47,7 @@ event_inherited();
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>rm_lev1</room>
+            <room>rm_explain</room>
           </argument>
         </arguments>
       </action>

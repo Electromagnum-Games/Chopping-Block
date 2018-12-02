@@ -16,6 +16,12 @@
       <sprite>sprites\spr_levelicon7</sprite>
       <sprite>sprites\spr_levelicon8</sprite>
       <sprite>sprites\spr_levelicon9</sprite>
+      <sprite>sprites\spr_levelicon10</sprite>
+      <sprite>sprites\spr_levelicon11</sprite>
+      <sprite>sprites\spr_levelicon12</sprite>
+      <sprite>sprites\spr_levelicon13</sprite>
+      <sprite>sprites\spr_levelicon14</sprite>
+      <sprite>sprites\spr_levelicon15</sprite>
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spr_back</sprite>
@@ -32,6 +38,7 @@
       <sprite>sprites\spr_basicbutton</sprite>
       <sprite>sprites\spr_music</sprite>
       <sprite>sprites\spr_sfx</sprite>
+      <sprite>sprites\spr_ok</sprite>
     </sprites>
     <sprites name="Food">
       <sprites name="Whole">
@@ -47,6 +54,8 @@
         <sprite>sprites\spr_bottomhalfcarrot</sprite>
         <sprite>sprites\spr_tophalfpotato</sprite>
         <sprite>sprites\spr_bottomhalfpotato</sprite>
+        <sprite>sprites\spr_tophalftomato</sprite>
+        <sprite>sprites\spr_bottomhalftomato</sprite>
       </sprites>
     </sprites>
     <sprites name="Overlays">
@@ -60,6 +69,8 @@
       <sprite>sprites\spr_chop3</sprite>
       <sprite>sprites\spr_chop4</sprite>
       <sprite>sprites\spr_chop5</sprite>
+      <sprite>sprites\spr_chop6</sprite>
+      <sprite>sprites\spr_chop7</sprite>
     </sprites>
     <sprite>sprites\spr_cheatsheet</sprite>
   </sprites>
@@ -91,6 +102,12 @@
       <object>objects\obj_levelicon7</object>
       <object>objects\obj_levelicon8</object>
       <object>objects\obj_levelicon9</object>
+      <object>objects\obj_levelicon10</object>
+      <object>objects\obj_levelicon11</object>
+      <object>objects\obj_levelicon12</object>
+      <object>objects\obj_levelicon13</object>
+      <object>objects\obj_levelicon14</object>
+      <object>objects\obj_levelicon15</object>
     </objects>
     <objects name="Buttons">
       <object>objects\btn_par</object>
@@ -101,6 +118,7 @@
       <object>objects\btn_menu</object>
       <object>objects\btn_nextlevel</object>
       <object>objects\btn_levelselect</object>
+      <object>objects\btn_ok</object>
       <object>objects\btn_restart</object>
       <object>objects\btn_help</object>
       <object>objects\btn_close</object>
@@ -123,6 +141,8 @@
         <object>objects\obj_bottomhalfcarrot</object>
         <object>objects\obj_tophalfpotato</object>
         <object>objects\obj_bottomhalfpotato</object>
+        <object>objects\obj_tophalftomato</object>
+        <object>objects\obj_bottomhalftomato</object>
       </objects>
     </objects>
     <objects name="Chop and #s">
@@ -132,6 +152,8 @@
       <object>objects\obj_chop3</object>
       <object>objects\obj_chop4</object>
       <object>objects\obj_chop5</object>
+      <object>objects\obj_chop6</object>
+      <object>objects\obj_chop7</object>
     </objects>
     <object>objects\obj_text</object>
     <object>objects\obj_zero</object>
@@ -142,6 +164,7 @@
     <room>rooms\rm_menu</room>
     <room>rooms\rm_levelselect</room>
     <room>rooms\rm_options</room>
+    <room>rooms\rm_explain</room>
     <rooms name="Levels">
       <room>rooms\rm_lev1</room>
       <room>rooms\rm_lev2</room>
@@ -152,6 +175,7 @@
       <room>rooms\rm_lev7</room>
       <room>rooms\rm_lev8</room>
       <room>rooms\rm_lev9</room>
+      <room>rooms\rm_lev15</room>
     </rooms>
   </rooms>
   <help>
