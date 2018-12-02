@@ -27,6 +27,7 @@
       <sprite>sprites\spr_levelicon</sprite>
       <sprite>sprites\spr_basicbutton</sprite>
       <sprite>sprites\spr_music</sprite>
+      <sprite>sprites\spr_sfx</sprite>
     </sprites>
     <sprites name="Food">
       <sprites name="Whole">
@@ -45,12 +46,16 @@
       </sprites>
     </sprites>
     <sprites name="Overlays">
-      <sprite>sprites\spr_b_rectang</sprite>
-      <sprite>sprites\spr_w_rectang</sprite>
-      <sprite>sprites\spr_b_square</sprite>
-      <sprite>sprites\spr_w_square</sprite>
       <sprite>sprites\spr_check</sprite>
       <sprite>sprites\spr_lock</sprite>
+    </sprites>
+    <sprites name="Chop and #s">
+      <sprite>sprites\spr_chop</sprite>
+      <sprite>sprites\spr_chop1</sprite>
+      <sprite>sprites\spr_chop2</sprite>
+      <sprite>sprites\spr_chop3</sprite>
+      <sprite>sprites\spr_chop4</sprite>
+      <sprite>sprites\spr_chop5</sprite>
     </sprites>
     <sprite>sprites\spr_cheatsheet</sprite>
   </sprites>
@@ -64,6 +69,8 @@
     <script>scripts\scr_levelselect.gml</script>
     <script>scripts\scr_movehalves.gml</script>
     <script>scripts\scr_halfanimtime.gml</script>
+    <script>scripts\scr_scalecanvas.gml</script>
+    <script>scripts\scr_brightadjust.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_box</font>
@@ -109,9 +116,18 @@
         <object>objects\obj_bottomhalfpotato</object>
       </objects>
     </objects>
+    <objects name="Chop and #s">
+      <object>objects\obj_chop</object>
+      <object>objects\obj_chop1</object>
+      <object>objects\obj_chop2</object>
+      <object>objects\obj_chop3</object>
+      <object>objects\obj_chop4</object>
+      <object>objects\obj_chop5</object>
+    </objects>
     <object>objects\obj_text</object>
     <object>objects\obj_zero</object>
     <object>objects\obj_cheatsheet</object>
+    <object>objects\obj_aspect</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

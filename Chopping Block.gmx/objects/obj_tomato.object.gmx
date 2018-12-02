@@ -51,7 +51,7 @@ global.tomato += 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Change food vars, do movehalves and chopcheck, destroy
+            <string>///Change food vars, do movehalves and rules, destroy
 event_inherited();
 
 //scr_movehalves(obj_tophalftomato,obj_bottomhalftomato,id);
@@ -59,7 +59,7 @@ event_inherited();
 global.fruit -= 1;
 global.tomato -= 1;
 
-scr_chopcheck();
+scr_rules();
 
 instance_destroy(id);
 </string>

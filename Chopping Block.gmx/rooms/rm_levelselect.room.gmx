@@ -56,6 +56,7 @@
     <instance objName="obj_levelicon3" x="1120" y="224" name="inst_8D29B137" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="btn_menu" x="960" y="896" name="inst_21BE66BB" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="obj_levelicon4" x="1472" y="224" name="inst_01A4AB23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_aspect" x="64" y="416" name="inst_10AEA380" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

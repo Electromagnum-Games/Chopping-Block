@@ -63,6 +63,7 @@
     <instance objName="obj_carrot" x="1152" y="480" name="inst_8DEDDF65" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="obj_carrot" x="672" y="800" name="inst_32AF749A" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="obj_carrot" x="1152" y="800" name="inst_95DC6D0A" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_aspect" x="544" y="64" name="inst_A1CBBF37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

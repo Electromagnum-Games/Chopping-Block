@@ -28,6 +28,8 @@
             <string>///Adds close button
 c = instance_create(x+40,y-100,btn_close)
 c.depth = -1;
+c.image_xscale *= 0.2;
+c.image_yscale *= 0.2;
 </string>
           </argument>
         </arguments>
