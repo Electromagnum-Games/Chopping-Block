@@ -12,6 +12,10 @@
       <sprite>sprites\spr_levelicon3</sprite>
       <sprite>sprites\spr_levelicon4</sprite>
       <sprite>sprites\spr_levelicon5</sprite>
+      <sprite>sprites\spr_levelicon6</sprite>
+      <sprite>sprites\spr_levelicon7</sprite>
+      <sprite>sprites\spr_levelicon8</sprite>
+      <sprite>sprites\spr_levelicon9</sprite>
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spr_back</sprite>
@@ -82,6 +86,11 @@
       <object>objects\obj_levelicon2</object>
       <object>objects\obj_levelicon3</object>
       <object>objects\obj_levelicon4</object>
+      <object>objects\obj_levelicon5</object>
+      <object>objects\obj_levelicon6</object>
+      <object>objects\obj_levelicon7</object>
+      <object>objects\obj_levelicon8</object>
+      <object>objects\obj_levelicon9</object>
     </objects>
     <objects name="Buttons">
       <object>objects\btn_par</object>
@@ -133,15 +142,17 @@
     <room>rooms\rm_menu</room>
     <room>rooms\rm_levelselect</room>
     <room>rooms\rm_options</room>
-    <room>rooms\rm_tut1</room>
-    <room>rooms\rm_tut2</room>
-    <room>rooms\rm_tut3</room>
-    <room>rooms\rm_indiv1</room>
-    <room>rooms\rm_indiv2</room>
-    <room>rooms\rm_indiv3</room>
-    <room>rooms\rm_indiv4</room>
-    <room>rooms\rm_indiv5</room>
-    <room>rooms\rm_indiv6</room>
+    <rooms name="Levels">
+      <room>rooms\rm_lev1</room>
+      <room>rooms\rm_lev2</room>
+      <room>rooms\rm_lev3</room>
+      <room>rooms\rm_lev4</room>
+      <room>rooms\rm_lev5</room>
+      <room>rooms\rm_lev6</room>
+      <room>rooms\rm_lev7</room>
+      <room>rooms\rm_lev8</room>
+      <room>rooms\rm_lev9</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
