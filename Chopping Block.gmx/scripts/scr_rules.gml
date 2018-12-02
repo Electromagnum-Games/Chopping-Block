@@ -16,7 +16,7 @@ if (global.chopped == global.to_be_chopped)
         q.image_yscale *= 0.2
     }
     
-    else if (global.fruit >= global.veg && global.fruit != 0)
+    else if (global.fruit >= global.veg && global.fruit != 0 && global.veg != 0)
     {
         scr_text("The number of vegetables in a dish must always be greater than the number of fruits.",3,350,300);
         q = instance_create(960,800,btn_restart);

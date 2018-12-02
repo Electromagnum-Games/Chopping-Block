@@ -138,6 +138,10 @@
     <room>rooms\rm_tut3</room>
     <room>rooms\rm_indiv1</room>
     <room>rooms\rm_indiv2</room>
+    <room>rooms\rm_indiv3</room>
+    <room>rooms\rm_indiv4</room>
+    <room>rooms\rm_indiv5</room>
+    <room>rooms\rm_indiv6</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
