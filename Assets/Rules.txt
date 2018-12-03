@@ -1,0 +1,19 @@
+Veggies:	A dish must not have exactly 3 vegetables
+
+Fruits:		A dish must always have more vegetables than fruits
+
+Meats: 		Each dish must have exactly 1 meat
+
+
+
+Carrots:	A dish must not have more than 5 carrots
+
+Potatoes:	If a dish contains potatoes, there must be an equal number of carrots
+
+Tomatoes:	There must always be an odd number of tomatoes
+
+Lemon:		Lemon cannot be paired with potato
+
+Chicken:	In a dish with chicken, there must be at least 2 carrots for each tomato
+
+Beef:		A dish with beef may have either tomato or lemon, not both
