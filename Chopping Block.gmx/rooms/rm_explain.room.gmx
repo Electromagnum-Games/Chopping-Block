@@ -10,7 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>scr_text("Welcome to Chopping Block! The point of this game is to create a dish that follows certain rules established in each level. You must "+chr(34)+"chop"+chr(34)+" the ingredients that don't fit with the rules. The ingredients and their categories are shown below. You have a certain number of chops, all of which must be used, and not every level has a single solution. Let's get chopping!",3,16,70);</code>
+  <code>scr_text("Welcome to Chopping Block! The point of this game is to create a dish that follows certain rules established in each level. You must "+chr(34)+"chop"+chr(34)+" the ingredients that don't fit with the rules. The ingredients and their categories are shown below. You have a certain number of chops, all of which must be used, and not every level has just one solution. Let's get chopping!",3,16,70);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
