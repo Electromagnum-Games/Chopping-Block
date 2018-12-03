@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>///Use btn_par's code
 event_inherited();
+instance_activate_all();
 </string>
           </argument>
         </arguments>
