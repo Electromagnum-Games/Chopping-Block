@@ -63,7 +63,7 @@ global.to_be_chopped = 3;</code>
     <instance objName="obj_tomato" x="352" y="480" name="inst_52FF3012" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="obj_tomato" x="352" y="800" name="inst_25649484" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="obj_tomato" x="800" y="800" name="inst_5578A99A" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="obj_chop" x="704" y="96" name="inst_CAE2F6D0" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_chop" x="704" y="96" name="inst_CAE2F6D0" locked="0" code="" scaleX="0.219999998807907" scaleY="0.219999998807907" colour="4294967295" rotation="0"/>
     <instance objName="obj_exclamation" x="1088" y="96" name="inst_9444090B" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

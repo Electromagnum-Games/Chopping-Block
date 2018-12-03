@@ -59,7 +59,7 @@ global.to_be_chopped = 6;</code>
     <instance objName="obj_carrot" x="736" y="800" name="inst_DA0E271B" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="obj_carrot" x="416" y="544" name="inst_7A571C89" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="obj_lemon" x="1056" y="544" name="inst_D3C5BF45" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="obj_chop" x="704" y="96" name="inst_BA3A21E7" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_chop" x="704" y="96" name="inst_BA3A21E7" locked="0" code="" scaleX="0.219999998807907" scaleY="0.219999998807907" colour="4294967295" rotation="0"/>
     <instance objName="obj_chicken" x="1696" y="800" name="inst_FABD5DFB" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="obj_potato" x="1056" y="800" name="inst_500B71C8" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="obj_beef" x="1696" y="544" name="inst_8AB88EBE" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
