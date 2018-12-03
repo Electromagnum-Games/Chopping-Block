@@ -1,6 +1,6 @@
 switch (global.to_be_chopped - global.chopped)
 {
-    case 7: instance_create(x+160,y,obj_chop6); break;
+    case 7: instance_create(x+160,y,obj_chop7); break;
     case 6: 
         if (instance_exists(obj_chop7))
         {

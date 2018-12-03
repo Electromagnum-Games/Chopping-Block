@@ -54,7 +54,7 @@ global.lemon += 1;
             <string>///Change food vars, do movehalves and rules, destroy
 event_inherited();
 
-//scr_movehalves(obj_tophalflemon,obj_bottomhalflemon,id);
+scr_movehalves(obj_tophalflemon,obj_bottomhalflemon,id);
 
 global.fruit -= 1;
 global.lemon -= 1;

@@ -56,6 +56,8 @@
         <sprite>sprites\spr_bottomhalfpotato</sprite>
         <sprite>sprites\spr_tophalftomato</sprite>
         <sprite>sprites\spr_bottomhalftomato</sprite>
+        <sprite>sprites\spr_tophalflemon</sprite>
+        <sprite>sprites\spr_bottomhalflemon</sprite>
       </sprites>
     </sprites>
     <sprites name="Overlays">
@@ -86,6 +88,7 @@
     <script>scripts\scr_halfanimtime.gml</script>
     <script>scripts\scr_scalecanvas.gml</script>
     <script>scripts\scr_brightadjust.gml</script>
+    <script>scripts\scr_levelcompletecheck.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_box</font>
@@ -143,6 +146,8 @@
         <object>objects\obj_bottomhalfpotato</object>
         <object>objects\obj_tophalftomato</object>
         <object>objects\obj_bottomhalftomato</object>
+        <object>objects\obj_tophalflemon</object>
+        <object>objects\obj_bottomhalflemon</object>
       </objects>
     </objects>
     <objects name="Chop and #s">
@@ -155,8 +160,8 @@
       <object>objects\obj_chop6</object>
       <object>objects\obj_chop7</object>
     </objects>
-    <object>objects\obj_text</object>
     <object>objects\obj_zero</object>
+    <object>objects\obj_text</object>
     <object>objects\obj_cheatsheet</object>
     <object>objects\obj_aspect</object>
   </objects>
@@ -175,6 +180,11 @@
       <room>rooms\rm_lev7</room>
       <room>rooms\rm_lev8</room>
       <room>rooms\rm_lev9</room>
+      <room>rooms\rm_lev10</room>
+      <room>rooms\rm_lev11</room>
+      <room>rooms\rm_lev12</room>
+      <room>rooms\rm_lev13</room>
+      <room>rooms\rm_lev14</room>
       <room>rooms\rm_lev15</room>
     </rooms>
   </rooms>

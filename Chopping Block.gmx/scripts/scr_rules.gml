@@ -87,5 +87,6 @@ if (global.chopped == global.to_be_chopped)
         n = instance_create(960,896,btn_nextlevel);
         n.image_xscale = 0.2;
         n.image_yscale = 0.2;
+        scr_levelcompletecheck()
     }
 }

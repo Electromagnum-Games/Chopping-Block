@@ -10,7 +10,23 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>switch (global.level_completed)
+{
+    case 1: obj_levelicon2.sprite_index = spr_levelicon2; break;
+    case 2: obj_levelicon3.sprite_index = spr_levelicon3; break;
+    case 3: obj_levelicon4.sprite_index = spr_levelicon4; break;
+    case 4: obj_levelicon5.sprite_index = spr_levelicon5; break;
+    case 5: obj_levelicon6.sprite_index = spr_levelicon6; break;
+    case 6: obj_levelicon7.sprite_index = spr_levelicon7; break;
+    case 7: obj_levelicon8.sprite_index = spr_levelicon8; break;
+    case 8: obj_levelicon9.sprite_index = spr_levelicon9; break;
+    case 9: obj_levelicon10.sprite_index = spr_levelicon10; break;
+    case 10: obj_levelicon11.sprite_index = spr_levelicon11; break;
+    case 11: obj_levelicon12.sprite_index = spr_levelicon12; break;
+    case 12: obj_levelicon13.sprite_index = spr_levelicon13; break;
+    case 13: obj_levelicon14.sprite_index = spr_levelicon14; break;
+    case 14: obj_levelicon15.sprite_index = spr_levelicon15; break;
+}</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -62,7 +78,12 @@
     <instance objName="obj_levelicon7" x="256" y="416" name="inst_E53E4898" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_levelicon8" x="480" y="416" name="inst_EC771ECE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_levelicon9" x="704" y="416" name="inst_1AA841BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_levelicon15" x="1664" y="448" name="inst_1859CA86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelicon15" x="1760" y="416" name="inst_1859CA86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelicon10" x="928" y="416" name="inst_A150920B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelicon11" x="1120" y="416" name="inst_518574FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelicon12" x="1280" y="416" name="inst_B1CAF08E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelicon13" x="1440" y="416" name="inst_09FD5EB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_levelicon14" x="1600" y="416" name="inst_D96AF5E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
