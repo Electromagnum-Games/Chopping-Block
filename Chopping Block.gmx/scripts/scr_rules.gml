@@ -5,7 +5,7 @@ if (global.chopped == global.to_be_chopped)
         
     if(global.meat != 1)
     {
-        scr_text("Each dish must have exactly 1 meat.",3,850,300);
+        scr_text("Each dish must have exactly 1 meat.",3,600,300);
         q = instance_create(960,800,btn_restart);
         q.image_xscale *= 0.2;
         q.image_yscale *= 0.2
@@ -13,7 +13,7 @@ if (global.chopped == global.to_be_chopped)
     
     else if (global.veg == 3)
     {
-        scr_text("A dish must not have exactly 3 vegetables.",3,850,300);
+        scr_text("A dish must not have exactly 3 vegetables.",3,500,300);
         q = instance_create(960,800,btn_restart);
         q.image_xscale *= 0.2;
         q.image_yscale *= 0.2
@@ -21,7 +21,7 @@ if (global.chopped == global.to_be_chopped)
     
     else if (global.fruit >= global.veg && global.fruit != 0 && global.veg != 0)
     {
-        scr_text("A dish must always have more vegetables than fruits.",3,550,300);
+        scr_text("A dish must always have more vegetables than fruits.",3,450,300);
         q = instance_create(960,800,btn_restart);
         q.image_xscale *= 0.2;
         q.image_yscale *= 0.2
@@ -29,7 +29,7 @@ if (global.chopped == global.to_be_chopped)
     
     else if (global.carrot > 5)
     {
-        scr_text("A dish must not have more than 5 carrots.",3,850,300);
+        scr_text("A dish must not have more than 5 carrots.",3,700,300);
         q = instance_create(960,800,btn_restart);
         q.image_xscale *= 0.2;
         q.image_yscale *= 0.2
@@ -37,7 +37,7 @@ if (global.chopped == global.to_be_chopped)
     
     else if (global.potato > 0 && global.potato != global.carrot)
     {
-        scr_text("If a dish contains potatoes, there must be an equal number of carrots.",3,850,300);
+        scr_text("If a dish contains potatoes, there must be an equal number of carrots.",3,250,300);
         q = instance_create(960,800,btn_restart);
         q.image_xscale *= 0.2;
         q.image_yscale *= 0.2
@@ -77,7 +77,7 @@ if (global.chopped == global.to_be_chopped)
     
     else if (global.beef > 0 && global.lemon > 0 && global.tomato > 0)
     {
-        scr_text("A dish with beef may have either tomato or lemon, not both.",3,850,300);
+        scr_text("A dish with beef may have either tomato or lemon, not both.",3,350,300);
         q = instance_create(960,800,btn_restart);
         q.image_xscale *= 0.2;
         q.image_yscale *= 0.2
@@ -86,7 +86,7 @@ if (global.chopped == global.to_be_chopped)
     else 
     {
         scr_levelcompletecheck()
-        if (global.levelcompleted != 15)
+        if (room_get_name(room) != "rm_lev15")
         {
             scr_text("Congrats!",3,850,540)
             n = instance_create(960,896,btn_nextlevel);
