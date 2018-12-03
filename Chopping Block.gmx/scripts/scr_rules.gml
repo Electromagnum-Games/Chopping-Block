@@ -61,7 +61,7 @@ if (global.chopped == global.to_be_chopped)
     
     else if (global.chicken > 0 && global.tomato != 0 && global.carrot == 0)
     {
-        scr_text("In a dish with chicken, there must be at least 2 carrots for each tomato.",3,850,300);
+        scr_text("In a dish with chicken, there must be at least 2 carrots for each tomato.",3,450,300);
         q = instance_create(960,800,btn_restart);
         q.image_xscale *= 0.2;
         q.image_yscale *= 0.2
@@ -69,7 +69,7 @@ if (global.chopped == global.to_be_chopped)
     
     else if (global.chicken > 0 && global.tomato !=0 && global.carrot != 0 && (global.carrot/global.tomato)<2)
     {
-        scr_text("In a dish with chicken, there must be at least 2 carrots for each tomato.",3,850,300);
+        scr_text("In a dish with chicken, there must be at least 2 carrots for each tomato.",3,450,300);
         q = instance_create(960,800,btn_restart);
         q.image_xscale *= 0.2;
         q.image_yscale *= 0.2
