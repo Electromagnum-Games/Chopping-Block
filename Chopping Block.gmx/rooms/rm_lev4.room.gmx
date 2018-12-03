@@ -10,7 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>scr_text("Level 4   If a dish contains potatoes, there must be an equal number of carrots.",3,168,224)
+  <code>scr_text("Level 4   If a dish contains potatoes, there must be an equal number of carrots.",3,136,224)
 global.to_be_chopped = 3</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
