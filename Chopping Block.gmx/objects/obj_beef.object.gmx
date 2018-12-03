@@ -54,7 +54,7 @@ global.beef += 1;
             <string>///Change food vars, do movehalves and rules, destroy
 event_inherited();
 
-//scr_movehalves(obj_tophalfbeef,obj_bottomhalfbeef,id);
+scr_movehalves(obj_tophalfbeef,obj_bottomhalfbeef,id);
 
 global.meat -= 1;
 global.beef -= 1;
