@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\snd_click</sound>
     <sound>sound\snd_mover</sound>
+    <sound>sound\snd_chop</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Level Icons">
