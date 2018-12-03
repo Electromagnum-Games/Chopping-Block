@@ -1,6 +1,6 @@
-switch(room)
+switch(room_get_name(room))
 {
-    case 4: 
+    case "rm_lev1": 
     {
         if(global.level_completed < 1)
         {
@@ -8,7 +8,7 @@ switch(room)
             break;
         }
     }
-    case 5: 
+    case "rm_lev2": 
     {
         if(global.level_completed < 2)
         {
@@ -16,7 +16,7 @@ switch(room)
             break;
         }
     }
-    case 6: 
+    case "rm_lev3": 
     {
         if(global.level_completed < 3)
         {
@@ -24,7 +24,7 @@ switch(room)
             break;
         }
     }
-    case 7: 
+    case "rm_lev4": 
     {
         if(global.level_completed < 4)
         {
@@ -32,7 +32,7 @@ switch(room)
             break;
         }
     }
-    case 8: 
+    case "rm_lev5": 
     {
         if(global.level_completed < 5)
         {
@@ -40,7 +40,7 @@ switch(room)
             break;
         }
     }
-    case 9: 
+    case "rm_lev6": 
     {
         if(global.level_completed < 6)
         {
@@ -48,7 +48,7 @@ switch(room)
             break;
         }
     }
-    case 10: 
+    case "rm_lev7": 
     {
         if(global.level_completed < 7)
         {
@@ -56,7 +56,7 @@ switch(room)
             break;
         }
     }
-    case 11: 
+    case "rm_lev8": 
     {
         if(global.level_completed < 8)
         {
@@ -64,7 +64,7 @@ switch(room)
             break;
         }
     }
-    case 12: 
+    case "rm_lev9": 
     {
         if(global.level_completed < 9)
         {
@@ -72,7 +72,7 @@ switch(room)
             break;
         }
     }
-    case 13: 
+    case "rm_lev10": 
     {
         if(global.level_completed < 10)
         {
@@ -80,7 +80,7 @@ switch(room)
             break;
         }
     }
-    case 14: 
+    case "rm_lev11": 
     {
         if(global.level_completed < 11)
         {
@@ -88,7 +88,7 @@ switch(room)
             break;
         }
     }
-    case 15: 
+    case "rm_lev12": 
     {
         if(global.level_completed < 12)
         {
@@ -96,7 +96,7 @@ switch(room)
             break;
         }
     }
-    case 16: 
+    case "rm_lev13": 
     {
         if(global.level_completed < 13)
         {
@@ -104,7 +104,7 @@ switch(room)
             break;
         }
     }
-    case 17: 
+    case "rm_lev14": 
     {
         if(global.level_completed < 14)
         {
@@ -112,7 +112,7 @@ switch(room)
             break;
         }
     }
-    case 18: 
+    case "rm_lev15": 
     {
         if(global.level_completed < 15)
         {
