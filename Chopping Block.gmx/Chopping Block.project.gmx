@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_click</sound>
+    <sound>sound\snd_mover</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Level Icons">
       <sprite>sprites\spr_levelicon1</sprite>
