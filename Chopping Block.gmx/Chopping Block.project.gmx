@@ -58,6 +58,8 @@
         <sprite>sprites\spr_bottomhalftomato</sprite>
         <sprite>sprites\spr_tophalflemon</sprite>
         <sprite>sprites\spr_bottomhalflemon</sprite>
+        <sprite>sprites\spr_tophalfchicken</sprite>
+        <sprite>sprites\spr_bottomhalfchicken</sprite>
       </sprites>
     </sprites>
     <sprites name="Overlays">
@@ -148,6 +150,8 @@
         <object>objects\obj_bottomhalftomato</object>
         <object>objects\obj_tophalflemon</object>
         <object>objects\obj_bottomhalflemon</object>
+        <object>objects\obj_tophalfchicken</object>
+        <object>objects\obj_bottomhalfchicken</object>
       </objects>
     </objects>
     <objects name="Chop and #s">
