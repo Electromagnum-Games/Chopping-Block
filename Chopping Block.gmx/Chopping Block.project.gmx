@@ -8,6 +8,8 @@
     <sound>sound\snd_click</sound>
     <sound>sound\snd_mover</sound>
     <sound>sound\snd_chop</sound>
+    <sound>sound\msc_menu</sound>
+    <sound>sound\msc_game</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Level Icons">
@@ -205,7 +207,11 @@
     <sprite>sprites\spr_cheatsheet</sprite>
     <sprite>sprites\spr_guide</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bck_standard</background>
+    <background>background\bck_menu</background>
+    <background>background\bck_credits</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_rules.gml</script>
@@ -299,6 +305,7 @@
     <object>objects\obj_cheatsheet</object>
     <object>objects\obj_aspect</object>
     <object>objects\obj_guide</object>
+    <object>objects\obj_music</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

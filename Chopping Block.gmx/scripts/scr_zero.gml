@@ -1,3 +1,5 @@
+sound_volume(msc_menu, 0.5);
+sound_volume(msc_game, 0.5);
 global.meat = 0;
 global.veg = 0;
 global.fruit = 0;

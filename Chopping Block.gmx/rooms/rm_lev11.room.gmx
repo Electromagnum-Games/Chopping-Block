@@ -32,7 +32,7 @@ global.to_be_chopped = 4;</code>
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bck_standard" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -56,15 +56,15 @@ global.to_be_chopped = 4;</code>
     <instance objName="btn_help" x="1824" y="96" name="inst_37BFA959" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="btn_menu" x="256" y="96" name="inst_44D30781" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="obj_aspect" x="64" y="224" name="inst_D9758FB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tomato" x="1312" y="448" name="inst_25649484" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="obj_carrot" x="544" y="448" name="inst_DA0E271B" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="obj_carrot" x="544" y="768" name="inst_7A571C89" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tomato" x="1312" y="768" name="inst_B7666C17" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lemon" x="928" y="448" name="inst_D3C5BF45" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tomato" x="1248" y="576" name="inst_25649484" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_carrot" x="672" y="576" name="inst_DA0E271B" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_carrot" x="672" y="800" name="inst_7A571C89" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tomato" x="1248" y="800" name="inst_B7666C17" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lemon" x="960" y="576" name="inst_D3C5BF45" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="obj_chop" x="704" y="96" name="inst_BA3A21E7" locked="0" code="" scaleX="0.219999998807907" scaleY="0.219999998807907" colour="4294967295" rotation="0"/>
-    <instance objName="obj_potato" x="160" y="608" name="inst_500B71C8" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="obj_beef" x="1696" y="608" name="inst_7528BD94" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lemon" x="928" y="768" name="inst_6A3CB956" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_potato" x="416" y="704" name="inst_500B71C8" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_beef" x="1504" y="704" name="inst_7528BD94" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lemon" x="960" y="800" name="inst_6A3CB956" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
     <instance objName="obj_exclamation" x="1088" y="96" name="inst_79AF48D2" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
