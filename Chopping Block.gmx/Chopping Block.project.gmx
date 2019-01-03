@@ -85,7 +85,17 @@
       <sprite>sprites\spr_chop7</sprite>
       <sprite>sprites\spr_exclamation</sprite>
     </sprites>
-    <sprite>sprites\spr_cheatsheet</sprite>
+    <sprites name="Cheatsheet">
+      <sprite>sprites\spr_cheatsheet</sprite>
+      <sprite>sprites\spr_cheatsheetlev1</sprite>
+      <sprite>sprites\spr_cheatsheetlev2</sprite>
+      <sprite>sprites\spr_cheatsheetlev3</sprite>
+      <sprite>sprites\spr_cheatsheetlev4</sprite>
+      <sprite>sprites\spr_cheatsheetlev5</sprite>
+      <sprite>sprites\spr_cheatsheetlev6</sprite>
+      <sprite>sprites\spr_cheatsheetlev7</sprite>
+      <sprite>sprites\spr_cheatsheetlev8</sprite>
+    </sprites>
     <sprite>sprites\spr_guide</sprite>
   </sprites>
   <backgrounds name="background">

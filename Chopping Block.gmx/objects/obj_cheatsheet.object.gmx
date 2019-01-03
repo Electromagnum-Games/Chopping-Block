@@ -25,7 +25,37 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Adds close button and sets depth
+            <string>///Chooses sheet, sets depth and hides everything else
+switch (room_get_name(room))
+{
+    case "rm_lev1":
+        sprite_index = spr_cheatsheetlev1;
+        break;
+    case "rm_lev2":
+        sprite_index = spr_cheatsheetlev2;
+        break;
+    case "rm_lev3":
+        sprite_index = spr_cheatsheetlev3;
+        break;
+    case "rm_lev4":
+        sprite_index = spr_cheatsheetlev4;
+        break;
+    case "rm_lev5":
+        sprite_index = spr_cheatsheetlev5;
+        break;
+    case "rm_lev6":
+        sprite_index = spr_cheatsheetlev6;
+        break;
+    case "rm_lev7":
+        sprite_index = spr_cheatsheetlev7;
+        break;
+    case "rm_lev8":
+        sprite_index = spr_cheatsheetlev8;
+        break;
+    default:
+        sprite_index = spr_cheatsheet;
+        break;
+}
 depth = -1;
 instance_deactivate_all(true);
 </string>
