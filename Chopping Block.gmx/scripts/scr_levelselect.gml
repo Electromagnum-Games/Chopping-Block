@@ -1,3 +1,12 @@
+/*for image_index:
+0: standard icon
+1: dark
+2: light
+3: check
+4: check light
+5: check dark
+6: lock
+*/
 switch (sprite_index)
 {
     case spr_levelicon1: room_goto(rm_lev1); break;

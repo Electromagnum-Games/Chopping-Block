@@ -5,148 +5,33 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\snd_click</sound>
-    <sound>sound\snd_mover</sound>
-    <sound>sound\snd_chop</sound>
-    <sound>sound\msc_menu</sound>
-    <sound>sound\msc_game</sound>
+    <sounds name="SFX">
+      <sound>sound\snd_click</sound>
+      <sound>sound\snd_mover</sound>
+      <sound>sound\snd_chop</sound>
+    </sounds>
+    <sounds name="Music">
+      <sound>sound\msc_menu</sound>
+      <sound>sound\msc_game</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="Level Icons">
-      <sprites name="Icon 1">
-        <sprite>sprites\spr_levelicon1</sprite>
-        <sprite>sprites\spr_levelicon1_dark</sprite>
-        <sprite>sprites\spr_levelicon1_light</sprite>
-        <sprite>sprites\spr_levelicon1_check</sprite>
-        <sprite>sprites\spr_levelicon1_checklight</sprite>
-        <sprite>sprites\spr_levelicon1_checkdark</sprite>
-      </sprites>
-      <sprites name="Icon 2">
-        <sprite>sprites\spr_levelicon2</sprite>
-        <sprite>sprites\spr_levelicon2_dark</sprite>
-        <sprite>sprites\spr_levelicon2_light</sprite>
-        <sprite>sprites\spr_levelicon2_check</sprite>
-        <sprite>sprites\spr_levelicon2_checklight</sprite>
-        <sprite>sprites\spr_levelicon2_checkdark</sprite>
-        <sprite>sprites\spr_levelicon2_lock</sprite>
-      </sprites>
-      <sprites name="Icon 3">
-        <sprite>sprites\spr_levelicon3</sprite>
-        <sprite>sprites\spr_levelicon3_dark</sprite>
-        <sprite>sprites\spr_levelicon3_light</sprite>
-        <sprite>sprites\spr_levelicon3_check</sprite>
-        <sprite>sprites\spr_levelicon3_checklight</sprite>
-        <sprite>sprites\spr_levelicon3_checkdark</sprite>
-        <sprite>sprites\spr_levelicon3_lock</sprite>
-      </sprites>
-      <sprites name="Icon 4">
-        <sprite>sprites\spr_levelicon4</sprite>
-        <sprite>sprites\spr_levelicon4_dark</sprite>
-        <sprite>sprites\spr_levelicon4_light</sprite>
-        <sprite>sprites\spr_levelicon4_check</sprite>
-        <sprite>sprites\spr_levelicon4_checklight</sprite>
-        <sprite>sprites\spr_levelicon4_checkdark</sprite>
-        <sprite>sprites\spr_levelicon4_lock</sprite>
-      </sprites>
-      <sprites name="Icon 5">
-        <sprite>sprites\spr_levelicon5</sprite>
-        <sprite>sprites\spr_levelicon5_dark</sprite>
-        <sprite>sprites\spr_levelicon5_light</sprite>
-        <sprite>sprites\spr_levelicon5_check</sprite>
-        <sprite>sprites\spr_levelicon5_checklight</sprite>
-        <sprite>sprites\spr_levelicon5_checkdark</sprite>
-        <sprite>sprites\spr_levelicon5_lock</sprite>
-      </sprites>
-      <sprites name="Icon 6">
-        <sprite>sprites\spr_levelicon6</sprite>
-        <sprite>sprites\spr_levelicon6_dark</sprite>
-        <sprite>sprites\spr_levelicon6_light</sprite>
-        <sprite>sprites\spr_levelicon6_check</sprite>
-        <sprite>sprites\spr_levelicon6_checklight</sprite>
-        <sprite>sprites\spr_levelicon6_checkdark</sprite>
-        <sprite>sprites\spr_levelicon6_lock</sprite>
-      </sprites>
-      <sprites name="Icon 7">
-        <sprite>sprites\spr_levelicon7</sprite>
-        <sprite>sprites\spr_levelicon7_dark</sprite>
-        <sprite>sprites\spr_levelicon7_light</sprite>
-        <sprite>sprites\spr_levelicon7_check</sprite>
-        <sprite>sprites\spr_levelicon7_checklight</sprite>
-        <sprite>sprites\spr_levelicon7_checkdark</sprite>
-        <sprite>sprites\spr_levelicon7_lock</sprite>
-      </sprites>
-      <sprites name="Icon 8">
-        <sprite>sprites\spr_levelicon8</sprite>
-        <sprite>sprites\spr_levelicon8_dark</sprite>
-        <sprite>sprites\spr_levelicon8_light</sprite>
-        <sprite>sprites\spr_levelicon8_check</sprite>
-        <sprite>sprites\spr_levelicon8_checklight</sprite>
-        <sprite>sprites\spr_levelicon8_checkdark</sprite>
-        <sprite>sprites\spr_levelicon8_lock</sprite>
-      </sprites>
-      <sprites name="Icon 9">
-        <sprite>sprites\spr_levelicon9</sprite>
-        <sprite>sprites\spr_levelicon9_dark</sprite>
-        <sprite>sprites\spr_levelicon9_light</sprite>
-        <sprite>sprites\spr_levelicon9_check</sprite>
-        <sprite>sprites\spr_levelicon9_checklight</sprite>
-        <sprite>sprites\spr_levelicon9_checkdark</sprite>
-        <sprite>sprites\spr_levelicon9_lock</sprite>
-      </sprites>
-      <sprites name="Icon 10">
-        <sprite>sprites\spr_levelicon10</sprite>
-        <sprite>sprites\spr_levelicon10_dark</sprite>
-        <sprite>sprites\spr_levelicon10_light</sprite>
-        <sprite>sprites\spr_levelicon10_check</sprite>
-        <sprite>sprites\spr_levelicon10_checklight</sprite>
-        <sprite>sprites\spr_levelicon10_checkdark</sprite>
-        <sprite>sprites\spr_levelicon10_lock</sprite>
-      </sprites>
-      <sprites name="Icon 11">
-        <sprite>sprites\spr_levelicon11</sprite>
-        <sprite>sprites\spr_levelicon11_dark</sprite>
-        <sprite>sprites\spr_levelicon11_light</sprite>
-        <sprite>sprites\spr_levelicon11_check</sprite>
-        <sprite>sprites\spr_levelicon11_checklight</sprite>
-        <sprite>sprites\spr_levelicon11_checkdark</sprite>
-        <sprite>sprites\spr_levelicon11_lock</sprite>
-      </sprites>
-      <sprites name="Icon 12">
-        <sprite>sprites\spr_levelicon12</sprite>
-        <sprite>sprites\spr_levelicon12_dark</sprite>
-        <sprite>sprites\spr_levelicon12_light</sprite>
-        <sprite>sprites\spr_levelicon12_check</sprite>
-        <sprite>sprites\spr_levelicon12_checklight</sprite>
-        <sprite>sprites\spr_levelicon12_checkdark</sprite>
-        <sprite>sprites\spr_levelicon12_lock</sprite>
-      </sprites>
-      <sprites name="Icon 13">
-        <sprite>sprites\spr_levelicon13</sprite>
-        <sprite>sprites\spr_levelicon13_dark</sprite>
-        <sprite>sprites\spr_levelicon13_light</sprite>
-        <sprite>sprites\spr_levelicon13_check</sprite>
-        <sprite>sprites\spr_levelicon13_checklight</sprite>
-        <sprite>sprites\spr_levelicon13_checkdark</sprite>
-        <sprite>sprites\spr_levelicon13_lock</sprite>
-      </sprites>
-      <sprites name="Icon 14">
-        <sprite>sprites\spr_levelicon14</sprite>
-        <sprite>sprites\spr_levelicon14_dark</sprite>
-        <sprite>sprites\spr_levelicon14_light</sprite>
-        <sprite>sprites\spr_levelicon14_check</sprite>
-        <sprite>sprites\spr_levelicon14_checklight</sprite>
-        <sprite>sprites\spr_levelicon14_checkdark</sprite>
-        <sprite>sprites\spr_levelicon14_lock</sprite>
-      </sprites>
-      <sprites name="Icon 15">
-        <sprite>sprites\spr_levelicon15</sprite>
-        <sprite>sprites\spr_levelicon15_dark</sprite>
-        <sprite>sprites\spr_levelicon15_light</sprite>
-        <sprite>sprites\spr_levelicon15_check</sprite>
-        <sprite>sprites\spr_levelicon15_checklight</sprite>
-        <sprite>sprites\spr_levelicon15_checkdark</sprite>
-        <sprite>sprites\spr_levelicon15_lock</sprite>
-      </sprites>
+      <sprite>sprites\spr_levelicon1</sprite>
+      <sprite>sprites\spr_levelicon2</sprite>
+      <sprite>sprites\spr_levelicon3</sprite>
+      <sprite>sprites\spr_levelicon4</sprite>
+      <sprite>sprites\spr_levelicon5</sprite>
+      <sprite>sprites\spr_levelicon6</sprite>
+      <sprite>sprites\spr_levelicon7</sprite>
+      <sprite>sprites\spr_levelicon8</sprite>
+      <sprite>sprites\spr_levelicon9</sprite>
+      <sprite>sprites\spr_levelicon10</sprite>
+      <sprite>sprites\spr_levelicon11</sprite>
+      <sprite>sprites\spr_levelicon12</sprite>
+      <sprite>sprites\spr_levelicon13</sprite>
+      <sprite>sprites\spr_levelicon14</sprite>
+      <sprite>sprites\spr_levelicon15</sprite>
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spr_back</sprite>
@@ -189,10 +74,6 @@
         <sprite>sprites\spr_bottomhalfbeef</sprite>
       </sprites>
     </sprites>
-    <sprites name="Overlays">
-      <sprite>sprites\spr_check</sprite>
-      <sprite>sprites\spr_lock</sprite>
-    </sprites>
     <sprites name="Chop and #s">
       <sprite>sprites\spr_chop</sprite>
       <sprite>sprites\spr_chop1</sprite>
@@ -218,7 +99,6 @@
     <script>scripts\scr_text.gml</script>
     <script>scripts\scr_zero.gml</script>
     <script>scripts\scr_chopcheck.gml</script>
-    <script>scripts\scr_levelselect.gml</script>
     <script>scripts\scr_movehalves.gml</script>
     <script>scripts\scr_halfanimtime.gml</script>
     <script>scripts\scr_scalecanvas.gml</script>
@@ -333,6 +213,11 @@
   <help>
     <rtf>help.rtf</rtf>
   </help>
+  <audiogroups name="audiogroups">
+    <audiogroup name="audiogroup_default"/>
+    <audiogroup name="ag_sfx"/>
+    <audiogroup name="ag_music"/>
+  </audiogroups>
   <TutorialState>
     <IsTutorial>0</IsTutorial>
     <TutorialName></TutorialName>

@@ -8,6 +8,370 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Set icons to correct versions
+image_speed = 0;
+/* Image indices:
+0: standard icon
+1: dark
+2: light
+3: check
+4: check light
+5: check dark
+6: lock
+*/
+switch (global.level_completed)
+{
+    case 15:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 3;
+        obj_levelicon4.image_index = 3;
+        obj_levelicon5.image_index = 3;
+        obj_levelicon6.image_index = 3;
+        obj_levelicon7.image_index = 3;
+        obj_levelicon8.image_index = 3;
+        obj_levelicon9.image_index = 3;
+        obj_levelicon10.image_index = 3;
+        obj_levelicon11.image_index = 3;
+        obj_levelicon12.image_index = 3;
+        obj_levelicon13.image_index = 3;
+        obj_levelicon14.image_index = 3;
+        obj_levelicon15.image_index = 3;
+        break;
+    case 14:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 3;
+        obj_levelicon4.image_index = 3;
+        obj_levelicon5.image_index = 3;
+        obj_levelicon6.image_index = 3;
+        obj_levelicon7.image_index = 3;
+        obj_levelicon8.image_index = 3;
+        obj_levelicon9.image_index = 3;
+        obj_levelicon10.image_index = 3;
+        obj_levelicon11.image_index = 3;
+        obj_levelicon12.image_index = 3;
+        obj_levelicon13.image_index = 3;
+        obj_levelicon14.image_index = 3;
+        obj_levelicon15.image_index = 0;
+        break;
+    case 13:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 3;
+        obj_levelicon4.image_index = 3;
+        obj_levelicon5.image_index = 3;
+        obj_levelicon6.image_index = 3;
+        obj_levelicon7.image_index = 3;
+        obj_levelicon8.image_index = 3;
+        obj_levelicon9.image_index = 3;
+        obj_levelicon10.image_index = 3;
+        obj_levelicon11.image_index = 3;
+        obj_levelicon12.image_index = 3;
+        obj_levelicon13.image_index = 3;
+        obj_levelicon14.image_index = 0;
+        obj_levelicon15.image_index = 6;
+        break;
+    case 12:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 3;
+        obj_levelicon4.image_index = 3;
+        obj_levelicon5.image_index = 3;
+        obj_levelicon6.image_index = 3;
+        obj_levelicon7.image_index = 3;
+        obj_levelicon8.image_index = 3;
+        obj_levelicon9.image_index = 3;
+        obj_levelicon10.image_index = 3;
+        obj_levelicon11.image_index = 3;
+        obj_levelicon12.image_index = 3;
+        obj_levelicon13.image_index = 0;
+        obj_levelicon14.image_index = 6;
+        obj_levelicon15.image_index = 6;
+        break;
+    case 11:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 3;
+        obj_levelicon4.image_index = 3;
+        obj_levelicon5.image_index = 3;
+        obj_levelicon6.image_index = 3;
+        obj_levelicon7.image_index = 3;
+        obj_levelicon8.image_index = 3;
+        obj_levelicon9.image_index = 3;
+        obj_levelicon10.image_index = 3;
+        obj_levelicon11.image_index = 3;
+        obj_levelicon12.image_index = 0;
+        obj_levelicon13.image_index = 6;
+        obj_levelicon14.image_index = 6;
+        obj_levelicon15.image_index = 6;
+        break;
+    case 10:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 3;
+        obj_levelicon4.image_index = 3;
+        obj_levelicon5.image_index = 3;
+        obj_levelicon6.image_index = 3;
+        obj_levelicon7.image_index = 3;
+        obj_levelicon8.image_index = 3;
+        obj_levelicon9.image_index = 3;
+        obj_levelicon10.image_index = 3;
+        obj_levelicon11.image_index = 0;
+        obj_levelicon12.image_index = 6;
+        obj_levelicon13.image_index = 6;
+        obj_levelicon14.image_index = 6;
+        obj_levelicon15.image_index = 6;
+        break;
+    case 9:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 3;
+        obj_levelicon4.image_index = 3;
+        obj_levelicon5.image_index = 3;
+        obj_levelicon6.image_index = 3;
+        obj_levelicon7.image_index = 3;
+        obj_levelicon8.image_index = 3;
+        obj_levelicon9.image_index = 3;
+        obj_levelicon10.image_index = 0;
+        obj_levelicon11.image_index = 6;
+        obj_levelicon12.image_index = 6;
+        obj_levelicon13.image_index = 6;
+        obj_levelicon14.image_index = 6;
+        obj_levelicon15.image_index = 6;
+        break;
+    case 8:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 3;
+        obj_levelicon4.image_index = 3;
+        obj_levelicon5.image_index = 3;
+        obj_levelicon6.image_index = 3;
+        obj_levelicon7.image_index = 3;
+        obj_levelicon8.image_index = 3;
+        obj_levelicon9.image_index = 0;
+        obj_levelicon10.image_index = 6;
+        obj_levelicon11.image_index = 6;
+        obj_levelicon12.image_index = 6;
+        obj_levelicon13.image_index = 6;
+        obj_levelicon14.image_index = 6;
+        obj_levelicon15.image_index = 6;
+        break;
+    case 7:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 3;
+        obj_levelicon4.image_index = 3;
+        obj_levelicon5.image_index = 3;
+        obj_levelicon6.image_index = 3;
+        obj_levelicon7.image_index = 3;
+        obj_levelicon8.image_index = 0;
+        obj_levelicon9.image_index = 6;
+        obj_levelicon10.image_index = 6;
+        obj_levelicon11.image_index = 6;
+        obj_levelicon12.image_index = 6;
+        obj_levelicon13.image_index = 6;
+        obj_levelicon14.image_index = 6;
+        obj_levelicon15.image_index = 6;
+        break;
+    case 6:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 3;
+        obj_levelicon4.image_index = 3;
+        obj_levelicon5.image_index = 3;
+        obj_levelicon6.image_index = 3;
+        obj_levelicon7.image_index = 0;
+        obj_levelicon8.image_index = 6;
+        obj_levelicon9.image_index = 6;
+        obj_levelicon10.image_index = 6;
+        obj_levelicon11.image_index = 6;
+        obj_levelicon12.image_index = 6;
+        obj_levelicon13.image_index = 6;
+        obj_levelicon14.image_index = 6;
+        obj_levelicon15.image_index = 6;
+        break;
+    case 5:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 3;
+        obj_levelicon4.image_index = 3;
+        obj_levelicon5.image_index = 3;
+        obj_levelicon6.image_index = 0;
+        obj_levelicon7.image_index = 6;
+        obj_levelicon8.image_index = 6;
+        obj_levelicon9.image_index = 6;
+        obj_levelicon10.image_index = 6;
+        obj_levelicon11.image_index = 6;
+        obj_levelicon12.image_index = 6;
+        obj_levelicon13.image_index = 6;
+        obj_levelicon14.image_index = 6;
+        obj_levelicon15.image_index = 6;
+        break;
+    case 4:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 3;
+        obj_levelicon4.image_index = 3;
+        obj_levelicon5.image_index = 0;
+        obj_levelicon6.image_index = 6;
+        obj_levelicon7.image_index = 6;
+        obj_levelicon8.image_index = 6;
+        obj_levelicon9.image_index = 6;
+        obj_levelicon10.image_index = 6;
+        obj_levelicon11.image_index = 6;
+        obj_levelicon12.image_index = 6;
+        obj_levelicon13.image_index = 6;
+        obj_levelicon14.image_index = 6;
+        obj_levelicon15.image_index = 6;
+        break;
+    case 3:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 3;
+        obj_levelicon4.image_index = 0;
+        obj_levelicon5.image_index = 6;
+        obj_levelicon6.image_index = 6;
+        obj_levelicon7.image_index = 6;
+        obj_levelicon8.image_index = 6;
+        obj_levelicon9.image_index = 6;
+        obj_levelicon10.image_index = 6;
+        obj_levelicon11.image_index = 6;
+        obj_levelicon12.image_index = 6;
+        obj_levelicon13.image_index = 6;
+        obj_levelicon14.image_index = 6;
+        obj_levelicon15.image_index = 6;
+        break;
+    case 2:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 3;
+        obj_levelicon3.image_index = 0;
+        obj_levelicon4.image_index = 6;
+        obj_levelicon5.image_index = 6;
+        obj_levelicon6.image_index = 6;
+        obj_levelicon7.image_index = 6;
+        obj_levelicon8.image_index = 6;
+        obj_levelicon9.image_index = 6;
+        obj_levelicon10.image_index = 6;
+        obj_levelicon11.image_index = 6;
+        obj_levelicon12.image_index = 6;
+        obj_levelicon13.image_index = 6;
+        obj_levelicon14.image_index = 6;
+        obj_levelicon15.image_index = 6;
+        break;
+    case 1:
+        obj_levelicon1.image_index = 3;
+        obj_levelicon2.image_index = 0;
+        obj_levelicon3.image_index = 6;
+        obj_levelicon4.image_index = 6;
+        obj_levelicon5.image_index = 6;
+        obj_levelicon6.image_index = 6;
+        obj_levelicon7.image_index = 6;
+        obj_levelicon8.image_index = 6;
+        obj_levelicon9.image_index = 6;
+        obj_levelicon10.image_index = 6;
+        obj_levelicon11.image_index = 6;
+        obj_levelicon12.image_index = 6;
+        obj_levelicon13.image_index = 6;
+        obj_levelicon14.image_index = 6;
+        obj_levelicon15.image_index = 6;
+        break;
+    case 0:
+        obj_levelicon1.image_index = 0;
+        obj_levelicon2.image_index = 6;
+        obj_levelicon3.image_index = 6;
+        obj_levelicon4.image_index = 6;
+        obj_levelicon5.image_index = 6;
+        obj_levelicon6.image_index = 6;
+        obj_levelicon7.image_index = 6;
+        obj_levelicon8.image_index = 6;
+        obj_levelicon9.image_index = 6;
+        obj_levelicon10.image_index = 6;
+        obj_levelicon11.image_index = 6;
+        obj_levelicon12.image_index = 6;
+        obj_levelicon13.image_index = 6;
+        obj_levelicon14.image_index = 6;
+        obj_levelicon15.image_index = 6;
+        break;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Set image speed to 0
+image_speed = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="11">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Return sprite to standard brightness
+switch (image_index)
+{
+    case 2:
+        image_index = 0;
+        break;
+    case 4:
+        image_index = 3;
+        break;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="6" enumb="10">
       <action>
         <libid>1</libid>
@@ -30,6 +394,122 @@
           <argument>
             <kind>3</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Change sprite to lighter version
+switch (image_index)
+{
+    case 0:
+        image_index = 2;
+        break;
+    case 3:
+        image_index = 4;
+        break;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Go to correct room
+switch (object_get_name(object_index))
+{
+    case "obj_levelicon1":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev1);
+        break;
+    case "obj_levelicon2":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev2);
+        break;
+    case "obj_levelicon3":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev3);
+        break;
+    case "obj_levelicon4":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev4);
+        break;
+    case "obj_levelicon5":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev5);
+        break;
+    case "obj_levelicon6":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev6);
+        break;
+    case "obj_levelicon7":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev7);
+        break;
+    case "obj_levelicon8":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev8);
+        break;
+    case "obj_levelicon9":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev9);
+        break;
+    case "obj_levelicon10":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev10);
+        break;
+    case "obj_levelicon11":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev11);
+        break;
+    case "obj_levelicon12":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev12);
+        break;
+    case "obj_levelicon13":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev13);
+        break;
+    case "obj_levelicon14":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev14);
+        break;
+    case "obj_levelicon15":
+        if (image_index == 1 || image_index == 5)
+            room_goto(rm_lev15);
+        break;
+}
+</string>
           </argument>
         </arguments>
       </action>
@@ -56,6 +536,38 @@
           <argument>
             <kind>3</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Change sprite to darker version
+switch (image_index)
+{
+    case 0:
+    case 2:
+        image_index = 1;
+        break;
+    case 3:
+    case 4:
+        image_index = 5;
+        break;
+}
+</string>
           </argument>
         </arguments>
       </action>
